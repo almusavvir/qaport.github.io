@@ -155,6 +155,7 @@ ul li:before {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 0.9rem;
+    position: relative;
 }  
 
 /* end */
@@ -247,9 +248,11 @@ ul li:before {
     text-transform: uppercase;
     letter-spacing: 1px;
     cursor: pointer;
+    box-shadow: none;
     position: relative;
     overflow: hidden;
     transition: all 0.3s ease;
+    
 }
 
 .btn-sketch {
@@ -283,6 +286,7 @@ ul li:before {
 .cta-buttons {
     margin-top: 2rem;
 }
+
 
 /* Section Titles */
 .section-title {
